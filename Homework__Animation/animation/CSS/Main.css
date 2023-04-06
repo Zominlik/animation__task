@@ -1,0 +1,74 @@
+body {
+  width: 1400px;
+  height: 317px;
+  margin: 67px;
+  background-color: #0bddb3;
+}
+
+.animation {
+  width: 279px;
+  height: 300px;
+  background-image: url(../images/pexels-ellie-burgin-11699958.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: animation;
+  animation-duration: 10s;
+  position: relative;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+  0% {
+    left: 0px;
+    top: 0px;
+    rotate: 0deg;
+  }
+
+  7% {
+    left: 350px;
+    top: 0px;
+    rotate: 0deg;
+  }
+
+  21% {
+    left: 450px;
+    top: 123px;
+    rotate: 45deg;
+  }
+
+  34% {
+    left: 580px;
+    top: 123px;
+    rotate: -45deg;
+  }
+
+  55% {
+    left: 580px;
+    top: 280px;
+    rotate: 0deg;
+  }
+
+  77% {
+    left: 223px;
+    top: 280px;
+    rotate: 0deg;
+  }
+
+  83% {
+    left: 111px;
+    top: 147px;
+    rotate: 45deg;
+  }
+
+  88% {
+    left: 0px;
+    top: 147px;
+    rotate: -45deg;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+    rotate: 0deg;
+  }
+}
